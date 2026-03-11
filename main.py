@@ -1,6 +1,7 @@
 import random
 from datetime import datetime
 from db import load_player_stats, save_player_stats
+from victory_effect import effet_victoire
 
 
 DOTATION_INITIALE = 10
@@ -189,6 +190,7 @@ def jouer_partie(name_user, player_stats):
                 plus_haut_level_session = level
 
             print(f"Bingo ! Gagne en {nb_coup} coup(s). Gain : {gain:.2f} €")
+            effet_victoire()
             print(f"Nouveau solde : {solde:.2f} €")
 
             if level == 3:
