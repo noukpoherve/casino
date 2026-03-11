@@ -1,0 +1,28 @@
+{
+  "herve": {
+    "created_at": "2026-03-10T09:35:41",
+    "games_played": 2,
+    "wins": 1,
+    "losses": 5,
+    "best_level": 1,
+    "first_try_wins": 0,
+    "highest_gain": 1.0,
+    "highest_mise": 4.0,
+    "sum_mise": 16.0,
+    "sum_attempts_on_win": 2,
+    "wins_with_attempts": 1
+  },
+  "jordan": {
+    "created_at": "2026-03-10T10:17:43",
+    "games_played": 1,
+    "wins": 3,
+    "losses": 0,
+    "best_level": 3,
+    "first_try_wins": 0,
+    "highest_gain": 1.75,
+    "highest_mise": 7.0,
+    "sum_mise": 16.0,
+    "sum_attempts_on_win": 13,
+    "wins_with_attempts": 3
+  }
+}
