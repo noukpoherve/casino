@@ -1,13 +1,27 @@
 import time
 
 def effet_victoire():
-    print("\n" + "=" * 40)
-    print("        *  *  *  YOUPIIII  *  *  *")
-    print("            \\o/   \\o/   \\o/")
-    print("             |     |     |")
-    print("            / \\   / \\   / \\")
-    print("      + + +  BRAVO, TU AS GAGNE !  + + +")
-    for i in range(3):
-        print("*" * (10 + i * 5))
-        time.sleep(0.1)
-    print("=" * 40 + "\n")
+    frame_up = [
+        "   \\o/    \\o/    \\o/   ",
+        "    |      |      |    ",
+        "   / \\    / \\    / \\   ",
+    ]
+
+    frame_down = [
+        "    o      o      o    ",
+        "   /|\\    /|\\    /|\\   ",
+        "   / \\    / \\    / \\   ",
+    ]
+
+    print("YOUPIIII !!!")
+    for _ in range(6):  # nombre de mouvements
+      
+        print("YOUPIIII !!!")
+        print("\n".join(frame_up))
+        time.sleep(0.25)
+
+        print("YOUPIIII !!!")
+        print("\n".join(frame_down))
+        time.sleep(0.25)
+
+    print("Bravo, tu as gagne !")
